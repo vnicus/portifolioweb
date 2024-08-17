@@ -1,0 +1,105 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 10px;
+    padding: 0 25px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+
+    background: rgb(0 0 0 / 41%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(54, 54, 54, 0.53);
+}
+
+header nav ul {
+    display: flex;
+    padding: 0;
+}
+
+header nav li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilização sobre mim */
+
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+}
+
+.div-com-img {
+    overflow: hidden;
+    margin: 0 10px 0 0;
+}
+
+.div-com-img img {
+    width: 100%;
+}
+
+.div-a-esquerda {
+    margin: 0 0 0 10px;
+}
+
+.div-sobre-mim {
+    margin: 0 0 15px 0;
+    padding: 10%;
+    height: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-sobre-mim p{
+    font-size: 20px;
+}
+
+.divs-em-baixo {
+    margin: 15px 0 0 0;
+    height: 35%;
+    display: flex;
+}
+
+.divs-em-baixo .div-left {
+    overflow: hidden;
+    margin: 0 10px 0 0;
+}
+
+.divs-em-baixo .div-right {
+    margin: 0 0 0 10px;
+}
+
+.divs-em-baixo div img {
+    height: 150px;
+}
+
+.divs-babys {
+    width: 100%;
+    overflow: hidden;
+    color: white;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-right{
+    padding: 2%;
+}
+
+
+/* Estilização seção projeto PI */
+
+.projeto-pi {
+    display: flex;
+    justify-content: center;
+}
+
